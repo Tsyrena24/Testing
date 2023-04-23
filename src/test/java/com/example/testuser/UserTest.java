@@ -12,7 +12,6 @@ class UserTest {
 
 //    private static String email = null;
 //    private static String login = null;
-
     private final User userTest = new User(email, login);
 
     @Test
