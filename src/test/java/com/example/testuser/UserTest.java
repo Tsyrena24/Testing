@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class UserTest {
+    //    private static String login = null;
+    //    private static String email = null;
     private static String email = "user@gmail.ru";
     private static String login = "qwerty";
 
-//    private static String email = null;
-//    private static String login = null;
 
     private final User userTest = new User(email, login);
 
